@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let coronaController = CoronaViewController()  // Step 1
         self.addChildViewController(coronaController)  // Step 2
         
-        var view:CoronaView = coronaController.view as CoronaView
+        let view:CoronaView = coronaController.view as! CoronaView
         view.frame = self.view.frame   // Step 3
         self.view.addSubview(view)     // Step 4
         view.run();                    // Step 5
