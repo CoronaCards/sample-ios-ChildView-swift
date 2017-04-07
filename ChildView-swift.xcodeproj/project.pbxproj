@@ -273,9 +273,11 @@
 				TargetAttributes = {
 					A49079F11A227C8200A0B244 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0830;
 					};
 					A4907A061A227C8200A0B244 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = A49079F11A227C8200A0B244;
 					};
 				};
@@ -469,7 +471,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LIBRARY = "libstdc++";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +485,7 @@
 				);
 				PRODUCT_NAME = "ChildView-swift";
 				SWIFT_OBJC_BRIDGING_HEADER = "${SOURCE_ROOT}/Swift-Interoperability/CoronaCards-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -491,7 +493,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LIBRARY = "libstdc++";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,6 +507,7 @@
 				);
 				PRODUCT_NAME = "ChildView-swift";
 				SWIFT_OBJC_BRIDGING_HEADER = "${SOURCE_ROOT}/Swift-Interoperability/CoronaCards-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -524,6 +526,7 @@
 				INFOPLIST_FILE = "ChildView-swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "ChildView-swiftTests";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -538,6 +541,7 @@
 				INFOPLIST_FILE = "ChildView-swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "ChildView-swiftTests";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
